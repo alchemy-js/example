@@ -7,6 +7,6 @@ Uses Alchemy "transmuter functions" to demonstrate building a site with markdown
 `npm i @alchemy-js/example`
 
 ## Use
-- `npm start`
+`npm start`
 
 ## MIT
