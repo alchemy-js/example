@@ -1,0 +1,15 @@
+<%- include('/includes/header') -%>
+    <div>
+      <%- content -%>
+    </div>
+    <div>
+      <h2>Static Site Generators Are:</h2>
+    </div>
+    <div>
+      <ul>
+      <%_ data.list.forEach(function(list) { _%>
+        <li><%- list -%>!</li>
+      <%_ }); _%>
+      </ul>
+    </div>
+<%- include('/includes/footer') -%>

@@ -1,0 +1,32 @@
+{
+  "name": "@alchemy-js/example",
+  "version": "1.0.0",
+  "description": "Example static site built with Alchemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index & browser-sync start -s 'public' -f 'data' 'layouts' --no-notify --no-open --no-ui --no-ghost-mode"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator"
+  ],
+  "author": "John Foderaro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemy-js/example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alchemy-js/example/issues"
+  },
+  "homepage": "https://github.com/alchemy-js/example#readme",
+  "dependencies": {
+    "@alchemy-js/alchemy": "^1.2.1",
+    "@alchemy-js/transmute-ejs": "^1.0.1",
+    "@alchemy-js/transmute-markdown": "^1.0.0",
+    "@alchemy-js/transmute-sass": "^1.0.1",
+    "browser-sync": "^2.26.7"
+  }
+}
